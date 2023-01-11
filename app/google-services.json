@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800180869416",
+    "project_id": "puja-1b95a",
+    "storage_bucket": "puja-1b95a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800180869416:android:3ce54711b97e033dd4181d",
+        "android_client_info": {
+          "package_name": "com.example.puja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800180869416-c2t66a7n4ifb6fnp5e9oof9li94u2nlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvaQqorwCHPK5hKkkSTytPQABR1H5iy9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800180869416-c2t66a7n4ifb6fnp5e9oof9li94u2nlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
