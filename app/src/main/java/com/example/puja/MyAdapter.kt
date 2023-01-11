@@ -3,6 +3,7 @@ package com.example.puja
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.view.menu.MenuView.ItemView
 import androidx.recyclerview.widget.RecyclerView
@@ -29,7 +30,7 @@ class MyAdapter(private val pujaList:ArrayList<Detail>):RecyclerView.Adapter<MyA
     }
 
     class MyViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        val titleImage : ShapeableImageView=itemView.findViewById(R.id.TitleImage)
+        val titleImage : ImageView=itemView.findViewById(R.id.TitleImage)
         val heading: TextView=itemView.findViewById(R.id.PujaHeading)
         val discription: TextView=itemView.findViewById(R.id.Discription)
         val cost: TextView=itemView.findViewById(R.id.Cost)
